@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "resourceName": {
+            "value": "pwc-cluster"
+        },
+        "location": {
+            "value": "centralus"
+        },
+        "kubernetesVersion": {
+            "value": "1.18.14"
+        },
+        "networkPlugin": {
+            "value": "kubenet"
+        },
+        "networkPolicy": {
+            "value": "calico"
+        }
+    }
+}
