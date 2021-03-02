@@ -6,7 +6,7 @@
             "value": ""
         },
         "kubernetesVersion": {
-            "value": "1.18.14"
+            "value": ""
         },
         "networkPlugin": {
             "value": "kubenet"
